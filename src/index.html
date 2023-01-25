@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>REGISTRATION FORM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="flex justify-center items-center max-w-md-auto capitalize">
+        <div id="form" class="block bg-slate-50 p-6 round-xl shadow-md shadow-slate-300 w-90">
+            <form action="">
+                <h2 class="text-green-700 text-4xl font-semibold my-4 flex flex justify-center ">THE COLLEGE OF MAASIN</h2>
+                <p class="italic flex justify-center text-sm ">Nisi Dominus Frustra</p>
+                <p class="flex justify-center text-sm">Maasin City, Southern Leyte</p>
+           
+                <h3 class="text-blue-700 text-sm font-semibold my-4">PERSONAL INFORMATION</h3>
+            <!--first name-->
+                <div id="fullName" class="flex flex-row">
+                 <div id="lastName" class="w-1/2 mr-3">
+                    <label for="lastName" class="text-sm">Last Name</label>
+                    <input type="text" name="" id="lname "
+                        class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                </div>
+            <!--last name-->
+                <div id="firstName" class="w-1/2 mr-3">
+                    <label for="fname" class="text-sm">First Name</label>
+                    <input type="text" name="" id="fname"
+                        class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                </div>
+            <!--Middle name-->
+                <div id="middleName" class="w-1/2 mr-3">
+                    <label for="mname" class="text-sm">Middle Name</label>
+                    <input type="text" name="" id="mname"
+                        class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                </div>
+            <!--suffix-->
+                <div id="suffix" class="w-1/2 mr-3">
+                    <label for="sufx" class="text-sm">Suffix</label>
+                    <input type="text" name="" id="sufx"
+                        class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                </div>
+            </div>
+                <div id="statusgender" class="">
+                    <div id="gender flex flex-row" class="text-sm mb-2">
+                      <p class="mt-2">Gender</p>
+                      <input type="radio" name="gender" id="male" class="text-sm mx-1" checked> <label for="male">Male</label>
+                      <input type="radio" name="gender" id="male" class="text-sm mx-1" checked> <label for="female">Female</label>
+                 </div>
+                 <div id="civilStatus" class="text-sm mb-2">
+                    <p class="mt-2">Civil Status</p>
+                    <input type="radio" name="status" id="single" class="text-sm mx-1" checked> <label for="single">Single</label>
+                    <input type="radio" name="status" id="married" class="text-sm mx-1" checked> <label for="married">Married</label>
+                    <input type="radio" name="status" id="widow" class="text-sm mx-1" checked> <label for="widow">Widow</label>
+                    <input type="radio" name="status" id="divorce" class="text-sm mx-1" checked> <label for="divorce">Divorce</label>
+                </div>
+                </div>
+            <div id="other-info" class="flex flex-row">
+                <div id="birthDay" class="w-1/2 mr-3">
+                    <label for="bday" class="text-sm">Birthday</label>
+                    <input type="date" name="bday" id="bday"
+                        class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                </div>
+                <div id="nationality" class="w-1/2 mr-3">
+                    <label for="nat" class="text-sm">Nationality</label>
+                    <input type="text" name="" id="nat"
+                        class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                </div>
+                <div id="Religion" class="w-1/2 mr-3">
+                    <label for="rel" class="text-sm">Religion</label>
+                    <input type="text" name="" id="religion"
+                        class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                </div>
+            </div>
+            <h3 class="text-blue-700 text-sm font-semibold my-4">CONTACT INFORMATION</h3>
+            <div id="contact-information" class="flex flex-row">
+                <div id="phoneNumber" class="w-1/2 mr-3">
+                    <label for="pNUmber">Phone Number</label>
+                    <input type="text" name="" id="pNUmber"  class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                </div>
+                <div id="emailadd" class="w-1/2 mr-3">
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email"
+                        class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                </div>
+            </div>
+            <div>
+                <h3 class="text-blue-700 text-sm font-semibold my-4">PARENT'S OR GURADIAN'S INFORMATION</h3>
+                <h3 class="text-blue-700 text-sm font-semibold my-4">Father</h3>
+                <div id="parents-information" class="flex flex-row">
+                    <div id="fLastname" class="w-1/2 mr-3">
+                        <label for="mLname">Last Name</label>
+                        <input type="text" name="" id="fLname"
+                            class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                        <label for="fFirstname">First Name</label>
+                        <input type="text" name="" id="fFname"
+                            class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                        <label for="fMiddlename">Middle Name</label>
+                        <input type="text" name="" id="fMidname"
+                            class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                    </div>
+                    <div id="emailadd" class="w-1/2 mr-3">
+                        <label for="pAddress">Present Address</label>
+                        <input type="text" name="" id="pAddress"
+                            class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                        <label for="mNumber">Mobile Number</label>
+                        <input type="text" name="" id="mNumber"
+                            class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                    </div>
+                 </div>
+                <h3 class="text-blue-700 text-sm font-semibold my-4">Mother</h3>
+                <div id="parents-information" class="flex flex-row">
+                    <div id="fLastname" class="w-1/2 mr-3">
+                        <label for="mLname">Last Name</label>
+                        <input type="text" name="" id="mLname"
+                            class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                        <label for="mFirstname">First Name</label>
+                        <input type="text" name="" id="mFname"
+                            class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                        <label for="mMiddlename">Middle Name</label>
+                        <input type="text" name="" id="mMidname"
+                            class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                    </div>
+                    <div id="emailadd" class="w-1/2 mr-3">
+                        <label for="pAddress">Present Address</label>
+                        <input type="text" name="" id="pAddress"
+                            class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                        <label for="mNumber">Mobile Number</label>
+                        <input type="text" name="" id="mNumber"
+                            class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                    </div>
+                </div>
+                <h3 class="text-blue-700 text-sm font-semibold my-4">COURSE OR LEVEL INFORMATION</h3>
+                <div id="parents-information" class="flex flex-row">
+                    <label for="">Course:</label>
+                    <div>
+                        <label for="">Course:</label>
+                        <select name="courses" id="" class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-trasparent outline-blue-600 shadow-sm">
+                            <option value="">Select a course</option>
+                            <option value="bsn">Bachelor of Science in Nursing</option>
+                            <option value="bsa">Bachelor of Science in Accountancy</option>
+                            <option value="bsa">Bachelor of Science in Business Addministration</option>
+                        </select>
+                    </div>
+                        <label for="">Major</label>
+                </div>
+                <div class="text-center">
+                    <button class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-500 ease-in-out bg-blue-500 hover:bg-green-500 transform hover:-translate-y-1 hover:scale-110 ..."submit"
+                         onclick="alert('Form submitted!')">
+                        Submit
+                </button>
+            </form>
+            
+        </div>
+    </div>
+</body>
+
+</html>
